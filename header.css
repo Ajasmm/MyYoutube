@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+}
+
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    border-bottom: 2px solid #efefef;
+    height: 56px;
+    margin-inline: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header div{
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header button{
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header button{
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+}
+
+.start{
+    width: 169px;
+}
+#menu-button:hover{
+    background-color: #e5e5e5;
+    border-radius: 50%;
+}
+#menu-button svg{
+    width: 24px;
+    height: 24px;
+    margin: 2px;
+}
+
+#yt-button{
+    width: 120px;
+    height: 56px;
+}
+#yt-icon{
+    width: 90px;
+    height: 90px;
+}
+
+.center{
+    flex: 1;
+    max-width: 600px;
+    margin-inline-end: 20px;
+}
+.center input{
+    flex: 1;
+    width: 0px;
+    height: 38px;
+    padding: 0px;
+    padding-left: 20px;
+    border: 1px solid #d4d4d4;
+    border-top-left-radius: 21px;
+    border-bottom-left-radius: 21px;
+    font-size: 16px;
+    font-weight: 400px;
+}
+.center input::placeholder{
+    font-size: 16px;
+    font-weight: 400px;
+}
+#search-icon{
+    width: 24px;
+    height: 24px;
+}
+#search-button{
+    width: 64px;
+    height: 40px;
+    padding: 1px 0px;
+    background-color: #f0f0f0;
+    border: 1px solid #d4d4d4;
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+    border-left: 0px;
+}
+#search-button:hover{
+    background-color: #e0e0e0;
+}
+#voice-button{
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border: 0px;
+    background-color: #efefef;
+    border-radius: 50%;
+}
+#voice-button:hover{
+    background-color: #e0e0e0;
+}
+#voice-icon{
+    width: 24px;
+    height: 24px;
+}
+
+
+.end{
+    width: 225px;
+    display: flex;
+    justify-content: flex-end;
+}
+.end button{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.end button:hover{
+    background-color: #e0e0e0;
+}
+.end svg{
+    width: 24px;
+    height: 24px;
+}
+.end img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}

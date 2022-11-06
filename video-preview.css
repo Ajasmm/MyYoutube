@@ -1,0 +1,29 @@
+.preview-data{
+    display: flex;
+}
+.preview-pic{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.channel-pic{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.preview-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 10px;
+}
+.preview-channel-name{
+    color: #606060;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.preview-views{
+    color: #606060;
+    font-size: 14px;
+}
